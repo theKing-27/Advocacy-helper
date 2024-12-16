@@ -1,0 +1,41 @@
+#cssmenu ul
+{
+    list-style-type: none;
+    width: auto;
+    position: relative;
+    display: block;
+    height: 33px;
+    font-size: .85em;
+    background-color:maroon;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu li
+{
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu li a
+{
+    float: left;
+    color: white;
+    text-decoration: none;
+    height: 24px;
+    padding: 7px 15px 0 15px;
+    font-weight: bold;
+}
+#cssmenu li a:hover, .current
+{
+    color: #fff;
+    background:maroon;
+    text-decoration: none;
+}
+#cssmenu .current a
+{
+    color: #fff;
+    font-weight: 700;
+}

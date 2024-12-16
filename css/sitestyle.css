@@ -1,0 +1,139 @@
+﻿
+
+/* -- Generic styling -- */
+html, body { height: 100%; }
+body { background: #fff url(../images/back.jpg); color: #333; font: .875em/normal Calibri, "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif; }
+
+a,a:link { padding: 0 2px; color: blue; }
+a:visited { color:red; }
+a:hover { border-bottom: solid 1px #c6762f; }
+
+h1,h2,h3,h4,h5,h5 { margin-bottom: .5em; }
+h1 { font-size: 2.136em; font-weight: normal; }
+h2 { font-size: 1.781em; }
+h3 { font-size: 1.284em; }
+
+p,form { margin-bottom: 1em; }
+
+
+/* -- Form & its elements -- */
+
+input, select, textarea { vertical-align: middle; border-radius: 0; }
+input.text, textarea, select { padding: 7px 10px; border: 1px solid #ccc;  background: #fff; color: #5a5a5a; font-family: Arial, Helvetica, sans-serif; font-size: 1em; }
+
+input.text:focus, textarea:focus, select:focus { border:1px solid #fc0;background:#ffffdf; }
+
+
+input.button { border: solid 1px #aaa; background: #eee; color: #000; font-size: 1em; font-family: Calibri, Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase;padding:5px; }
+input.button:active { border-color: #828177 #f9f8f3 #f9f8f3 #828177; }
+textarea { overflow: auto; height: 100px; resize: vertical; }
+
+form ul > li { position: relative; z-index: 1; float: left; width: 100%; margin-bottom: .5em; }
+form ul > li label { float: left; width: 20%; }
+form ul > li input.text, form ul > li textarea { position: relative; z-index: 2; }
+form ul > li input.text:focus { z-index: 4; background-color: #fff; }
+
+/* -- Links & Buttons -- */
+a.main-site { padding: 5px 12px 5px 18px; background: url(../images/arrow.png) 0 50% no-repeat; }
+a.main-site, a.main-site:link, a.main-site:visited { border: none; color: #000; text-decoration: none; }
+
+
+/* -- The Footer -- */
+#footer { clear: both; width: 960px; margin: 0 auto; padding: 0; color: #aaa;  text-align: center; text-shadow: #fff -1px 1px 1px; margin-top:10px;}
+
+#footer ul
+{
+    list-style-type: none;
+    display: block;
+    font-size: .85em;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#footer  li
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#footer li a
+{
+    text-decoration: none;
+    height: 24px;
+    padding: 7px 5px 0 5px;
+    font-weight: bold;
+    
+}
+
+#footer li a:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+
+/*******************************/
+.tblStyle
+{
+    border-collapse: collapse;
+}
+
+.tblStyle th
+{
+    background-color: #39393a;
+    color:#fff;
+}
+
+.tblStyle th, .tblStyle td
+{
+    border: solid 1px #999;
+    padding: 5px;
+}
+
+.tblStyle tr.alt
+{
+    background-color: #ddd;
+}
+
+.tblStyle td
+{
+    text-align: left;
+}
+
+.tblStyle td.txtCenter
+{
+    text-align: center;
+}
+
+.tblStyle .zeroBorder, .tblStyle .zeroBorder tr, .tblStyle .zeroBorder td
+{
+    border-style: none;
+    border-width: 0px;
+}
+
+
+.tblStyle tfoot, .tblStyle tfoot td
+{
+    border-style: none;
+    text-align: right;
+    padding:0px;
+    padding-top:2px;
+}
+
+.tblStyle tfoot a
+{
+    background-color: #ccc;
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    text-decoration: none;
+    border: 1px #aaa solid;
+    color: #333300;
+    font-weight: bolder;
+}
+
+/**************/
+
+fieldset
+{ border:1px #000 solid  }

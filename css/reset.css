@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*  reset.css v2 - reset default browser styling  */
+
+:link,:visited
+{ text-decoration:none; outline:none; }
+
+ul,ol
+{ list-style:none }
+
+h1,h2,h3,h4,h5,h6,pre,code,kbd,input,select,textarea,table,caption,cite,em,strong,th,figcaption
+{ font-size: 1em; }
+
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,time
+{ margin:0; padding:0 }
+
+a img,:link img,:visited img,abbr,acronym,fieldset,iframe
+{ border:none; }
+
+iframe
+{ vertical-align:bottom;  }
+
+address,abbr,cite
+{ font-style:normal }
+
+caption,th
+{ text-align:left; }
+
+table
+{ border-collapse:collapse; border-spacing:0; }
+
+q:before,q:after
+{ content:''; }
+
+article,aside,footer,header,hgroup,nav,section,figure,figcaption,iframe 
+{ display:block; }
